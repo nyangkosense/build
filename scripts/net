@@ -1,0 +1,15 @@
+#!/bin/sh
+
+ETH_IT=eno1
+WLAN_IT=wlan0
+
+is_eth_used=$(cat /sys/class/net/${ETH_IT}/carrier)
+
+if  [ "$is_eth_used" -eq 1 ]; then    # wired network is carrying
+  icon="" #uF6FF
+
+else
+  icon="" #uf128 # no network
+fi
+
+echo $icon && echo ethernet

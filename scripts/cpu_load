@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+#icon=" "
+#cpu=$(top -bn1 | grep load | awk '{printf "%.1f%%", $(NF-2)}')
+
+#echo -e "$cpu"
+
+cpu_val=$(grep -o "^[^ ]*" /proc/loadavg)
+
+printf "CPU: $cpu_val %%"
