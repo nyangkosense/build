@@ -18,6 +18,7 @@
 # General Setup
 
 The setup of my Gentoo-Workstation build:
+_Install_: =cd .src && sudo make clean install=
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
