@@ -137,12 +137,13 @@ The setup of my Gentoo-Workstation build:
 
 # GTK
 
--   Theme: NumixDarkSolarized
--   Icons: Suru++ Aspromaurus
+-   Theme: NumixDarkSolarized https://github.com/Ferdi265/numix-solarized-gtk-theme
+-   Icons: Suru++ Aspromaurus https://github.com/gusbemacbe/suru-plus-aspromauros
 
 
 <a id="orga4e8f17"></a>
 
 # Icons
 
--   Nerd Font Symbols
+-   Nerd Font Symbol
+-   https://www.nerdfonts.com/
