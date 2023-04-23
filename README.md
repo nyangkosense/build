@@ -1,4 +1,4 @@
-![~Gentoo~](Dragster.jpg)
+![~Gentoo~](https://github.com/nyangkosense/build/blob/main/gentoo.png)
 
 # Table of Contents
 
