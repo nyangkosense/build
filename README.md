@@ -18,7 +18,10 @@
 # General Setup
 
 The setup of my Gentoo-Workstation build:
-_Install_: =cd .src && sudo make clean install=
+
+_Install_: 
+<pre><code>cd .src && sudo make clean install
+</code></pre>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
