@@ -34,7 +34,7 @@ _Install_:
 <tbody>
 <tr>
 <td class="org-left">OS</td>
-<td class="org-left">gentoo</td>
+<td class="org-left">Gentoo GNU/Linux</td>
 </tr>
 
 
