@@ -1,3 +1,5 @@
+![~Gentoo~](Dragster.jpg)
+
 # Table of Contents
 
 1.  [General Setup](#orgbb272f3)
