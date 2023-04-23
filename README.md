@@ -80,6 +80,18 @@ The setup of my Gentoo-Workstation build:
 <td class="org-left">icon/theme</td>
 <td class="org-left">Gtk-Folder</td>
 </tr>
+
+
+<tr>
+<td class="org-left">compositor</td>
+<td class="org-left">picom</td>
+</tr>
+
+<tr>
+<td class="org-left">font</td>
+<td class="org-left">Iosevka</td>
+</tr>
+
 </tbody>
 </table>
 
