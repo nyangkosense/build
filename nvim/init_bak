@@ -1,0 +1,26 @@
+if vim.fn.has("termguicolors") then
+  vim.opt.termguicolors = true
+end
+
+vim.wo.number = true
+--]require('boo-colorscheme').use({ theme = 'radioactive_waste' })
+
+require('packer').startup(function(use)
+	use 'wbthomason/packer.nvim'
+	use 'nvim-lualine/lualine.nvim'
+	use 'ggandor/leap.nvim'
+	use {
+		'phaazon/hop.nvim',
+		branch = 'v2',
+		config = function()
+			require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+		end
+	}
+end)
+
+require('lualine').setup()
+require('leap').add_default_mappings()
+
+vim.cmd('set mouse=a')
+vim.cmd('colorscheme solarized')
+vim.cmd('set cursorline')
